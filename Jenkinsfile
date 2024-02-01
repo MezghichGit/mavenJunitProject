@@ -1,4 +1,8 @@
+
 node{
+  tools {
+            maven 'maven'
+          }
 stage('Get from git project')
   {
     git 'https://github.com/MezghichGit/mavenJunitProject'
